@@ -13,6 +13,6 @@ fun main(){
     val empleado3 = EmpleadoFijo("Patatas","0003",1187.0,2)
     departamento.añadirEmpleado(empleado3)
 
-    departamento.calcularSalarioTotal()
+    println("La suma de los salarios es: ${departamento.calcularSalarioTotal()}")
     departamento.mostrarEmpleados()
 }

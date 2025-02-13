@@ -6,11 +6,12 @@ class Departamento(val nombre :String) {
         listEmpleados.add(empleado)
     }
 
-    fun calcularSalarioTotal(){
+    fun calcularSalarioTotal(): Double{
         var total = 0.0
         for (empleado in listEmpleados){
             total += empleado.calcularSalario()
         }
+        return total
     }
 
     fun mostrarEmpleados(){
