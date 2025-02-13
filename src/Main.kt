@@ -2,7 +2,6 @@
 
 fun main(){
 
-
     val departamento = Departamento()
 
     val empleado1 = EmpleadoFijo()
