@@ -1,7 +1,7 @@
 class EmpleadoFijo(nombre: String,
                    id: String,
                    val salarioFijo: Double,
-                   val numPagas: Double) :Empleado(nombre, id) {
+                   val numPagas: Int) :Empleado(nombre, id) {
 
 
     override fun calcularSalario(): Double {
